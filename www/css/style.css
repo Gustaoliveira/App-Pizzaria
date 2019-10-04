@@ -3,11 +3,13 @@
 }
 
 body{
-  background-color: rgb(0, 0, 0);
+  background-image: url(../pizza.jpg);
+  background-size: 380px;
+  background-repeat: no-repeat;
 }
 
 .mainContent{
   width: 80vw;
   display: block;
-  margin: 30% auto;
+  margin: 15% auto;
 }
