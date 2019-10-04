@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <script src="components/jquery-3.4.1.min.js"></script>
+    <script src="components/script.js"></script>
+
+
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+
+      $(document).ready(function(){
+        carregaLista();
+      })
+
+    </script>  
+
+    
+</head>
+<body>
+    <section class="mainContent">
+      <label for="">Listas de Pizzas</label>
+      <select class="form-control" name="" id="selectListas">
+        <option value="" disabled selected>Selecione uma Pizza</option>
+      </select>
+      <label for="">Codigo</label>
+      <input class="form-control" type="text" id="codigo">
+      <label for="">Sabor</label>
+      <input class="form-control" type="text" id="sabor">
+      <label for="">Preço</label>
+      <input class="form-control" type="text" id="valor">
+      <p></p> 
+      <button class="btn btn-outline-success btn-block">Salvar Edição</button>
+      <button class="btn btn-outline-primary btn-block" id="registerPizza">Editar</button>
+      <button class="btn btn-outline-warning btn-block">Cancelar</button>
+      <button class="btn btn-outline-danger btn-block">Deletar</button>
+      <a class="btn btn-outline-warning btn-block" href="index.html">Voltar</a>
+    </section>
+</body>
+</html>

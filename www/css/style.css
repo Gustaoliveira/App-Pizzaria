@@ -1,0 +1,13 @@
+*{
+  color: white;
+}
+
+body{
+  background-color: rgb(0, 0, 0);
+}
+
+.mainContent{
+  width: 80vw;
+  display: block;
+  margin: 30% auto;
+}
